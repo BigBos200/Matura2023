@@ -17,19 +17,21 @@ def appT(licz, T, s, lines):
             licz += 1
 
     print(T)
+    return T
 
 def appINT(INT, T):
     for l in T:
         INT.append(int(l))
 
     print(INT)
+    return T
 
 IL = []
 def over90(INT, IL):
     for p in INT:
         if p > 90:
               IL.append(p)
-
+    return IL
 
 
 appT(licz, T, s, lines)
